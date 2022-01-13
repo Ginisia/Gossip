@@ -1,0 +1,29 @@
+html{
+  font-family: 'Montserrat', sans-serif;
+}
+li{
+  list-style-type: none;
+  display:inline;
+}
+a{
+  text-decoration: none;
+    color: black;
+}
+.wrapper{
+  padding: 4%;
+}
+section {
+  margin: 2em;
+}
+
+h3{
+  font-size: small;
+  font-weight: bold;
+  color: red;
+  text-transform: uppercase;
+}
+h4{
+  font-weight: 700;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.4em;
+}

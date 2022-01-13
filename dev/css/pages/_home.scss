@@ -1,0 +1,27 @@
+.first-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr );
+  gap: 2rem;
+  height: 100vh;
+  grid-template-areas: 
+  "big big . ."
+  "big big large large";
+  article{
+    height: 100%;
+    .text{
+    padding: 2%;
+    border: 0.05px solid rgb(185, 184, 184);
+    }
+  }
+  img{
+    display: block;
+    width: 100%;
+  }
+  article:nth-of-type(1){
+  grid-area: big;
+}
+  article:nth-of-type(4){
+    display: flex;
+    grid-area: large;
+}
+}

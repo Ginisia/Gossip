@@ -1,0 +1,39 @@
+.header{
+  display: flex;
+  width: 100%;
+
+  .top-title{
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    padding: 2%;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(231, 31, 31);
+    color: white;
+    text-transform: uppercase;
+    align-items: center;
+    & > *{
+    margin: 0;  
+    }
+    h1{
+      font-size: 5rem;
+    }
+    h2{
+      font-size: 1rem;
+      font-weight: 200;
+    }
+  }
+  .div-top{
+    width: 100%;
+    padding: 1%;
+  .banner-top{
+    background: url(../img/rec1.png)center/cover no-repeat;
+    height: 60%;
+    border: 0.1px solid rgb(185, 184, 184);
+  }
+  }
+  .mini-art-top{
+    width: 30%;
+    background: url(../img/22-324x400.jpg)center/cover;
+  }
+}
