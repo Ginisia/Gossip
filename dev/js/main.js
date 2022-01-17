@@ -1,4 +1,4 @@
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.swiper-1', {
 	loop: true,
 	autoplay: {
 		delay: 3000,
