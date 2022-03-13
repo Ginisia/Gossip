@@ -15,4 +15,4 @@ Lien vers le site : https://ginisia.github.io/Gossip/prod/
 
 ## Responsive
 
-Oui.
+Oui. 🎉
